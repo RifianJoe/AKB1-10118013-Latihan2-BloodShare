@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BloodShare</string>
+    <string name="txt_almost_there">Almost There</string>
+    <string name="txt_thanks">Thank you for registering with us. One more step, you need to check your email to active your account</string>
+    <string name="txt_verify">Verify</string>
+    <string name="txt_profile_name">Ahmad Hartaji</string>
+    <string name="txt_blood_type">Blood type : B</string>
+    <string name="nmb_blood_give">75</string>
+    <string name="txt_blood_give">Blood Give</string>
+    <string name="nmb_blood_received">100</string>
+    <string name="txt_blood_received">Blood Received</string>
+    <string name="nmb_thanks">330</string>
+    <string name="txt_thank">Thanks</string>
+    <string name="txt_search_donor">Search Donor</string>
+    <string name="txt_search_donor_near_you">Search donor near you</string>
+    <string name="txt_blood_needed">Blood Needed</string>
+    <string name="txt_users_need_blood">4 Users need blood</string>
+    <string name="txt_message">Message</string>
+    <string name="txt_new_message">5 New Message</string>
+    <string name="txt_donor_history">Donor History</string>
+    <string name="txt_gives_received">5 Gives, 2 Received</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_or">OR</string>
+    <string name="txt_connect_with_facebook">CONNECT WITH FACEBOOK</string>
+    <string name="txt_doesnt">doesn\'t have account ? </string>
+    <string name="txt_register"> Register</string>
+
+    <string name="txt_user">Username</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+
+    <string name="txt_retype_password">Retype Password</string>
+    <string name="txt_personal">Personal</string>
+    <string name="txt_organization">Organization</string>
+    <string name="txt_home_address">Home Address</string>
+    <string name="txt_default_location">Default Location</string>
+    <string name="txt_agree">Agree with Terms and Conditions</string>
+
+    <string-array name="bloodType">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="rhesus">
+        <item>Rhesus</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+        <item>Pelajar</item>
+        <item>Mahasiswa</item>
+        <item>PNS</item>
+        <item>Guru/Dosen</item>
+    </string-array>
+</resources>

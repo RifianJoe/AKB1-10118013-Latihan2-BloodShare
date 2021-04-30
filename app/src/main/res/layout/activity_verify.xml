@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#40B4E7"
+    tools:context=".Verify">
+
+
+    <TextView
+        android:id="@+id/txtVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Verify your Account"
+        />
+    <TextView
+        android:id="@+id/txtSubText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/txtVerify"
+        android:text="We have send verification code to your email"/>
+
+
+
+    <EditText
+        android:id="@+id/edtVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/txtSubText"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"
+        android:hint="enter verification code here..."/>
+
+    <Button
+        android:id="@+id/btnVerifySend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="SEND"
+        android:onClick="pindahHome"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_stroke_white"
+        android:layout_below="@id/edtVerifyCode"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@id/btnVerifySend"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txtCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="doesn't get the code ? "/>
+
+        <TextView
+            android:id="@+id/txtResend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Resend"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/txtCode"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
